@@ -33,7 +33,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/desiredleaguebg" />
+        app:srcCompat="@drawable/desiredleaguebg"
+        android:contentDescription="@string/backgroundimage" />
 
     <TextView
         android:id="@+id/textView8"
@@ -63,7 +64,8 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/swooshlogo" />
+        app:srcCompat="@drawable/swooshlogo"
+        android:contentDescription="@string/swooshlogo" />
 
     <LinearLayout
         android:layout_width="0dp"
@@ -81,10 +83,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/swoosh_toggle"
-            android:text="Mens"
+            android:text="@string/mens"
             android:textColor="@android:color/white"
-            android:textOff="Mens"
-            android:textOn="Mens"
+            android:textOff="@string/mens"
+            android:textOn="@string/mens"
             tools:layout_editor_absoluteX="136dp"
             tools:layout_editor_absoluteY="217dp" />
 
@@ -95,10 +97,10 @@
             android:layout_marginBottom="16dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/swoosh_toggle"
-            android:text="Womens"
+            android:text="@string/womens"
             android:textColor="@android:color/white"
-            android:textOff="Womens"
-            android:textOn="Womens" />
+            android:textOff="@string/womens"
+            android:textOn="@string/womens" />
 
         <ToggleButton
             android:id="@+id/toggleButton3"

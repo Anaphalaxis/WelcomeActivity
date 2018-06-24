@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">WelcomeActivity</string>
+    <string name="backgroundimage">backgroundimage</string>
+    <string name="swooshlogo">swooshlogo</string>
+    <string name="mens">Mens</string>
+    <string name="womens">Womens</string>
 </resources>
