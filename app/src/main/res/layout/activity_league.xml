@@ -15,6 +15,7 @@
         android:layout_marginStart="8dp"
         android:background="@drawable/swooth_button"
         android:fontFamily="@font/montserrat"
+        android:onClick="leagueNextClicked"
         android:text="NEXT"
         android:textColor="@color/colorAccent"
         android:textSize="15sp"
